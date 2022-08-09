@@ -60,6 +60,15 @@ def cc_toolchain_config(
         abi_version,
         abi_libc_version,
     ) = {
+        "darwin-arm64": (
+            "clang-arm64-darwin",
+            "arm64-apple-macosx",
+            "darwin",
+            "macosx",
+            "clang",
+            "darwin_arm64",
+            "darwin_arm64",
+        ),
         "darwin-x86_64": (
             "clang-x86_64-darwin",
             "x86_64-apple-macosx",
